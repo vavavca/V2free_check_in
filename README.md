@@ -1,4 +1,4 @@
-# V2free自动签到,并发送邮件
+# V2free自动签到
 v2free checkin
 ## 使用教程
 点击Fork按钮将项目Fork到自己仓库
