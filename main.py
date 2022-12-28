@@ -76,7 +76,11 @@ if __name__ == "__main__":
     # parser.add_argument('--semail', type=str, help='发送邮箱')
     # parser.add_argument('--secode', type=str, help='发送密码')
     args = parser.parse_args()
-    msg = main(args.username,args.password)
+    try:
+        msg = main(args.username,args.password)
+    except Exception as e:
+        print("${args.username}签到失败")
+        print(e)
     print(msg)
     # send(info=msg,mail=[args.semail,args.secode],receivers=args.remail)
 
