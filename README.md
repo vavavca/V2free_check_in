@@ -1,5 +1,5 @@
 # V2free自动签到,并发送邮件
-v2free checkin ,send email
+v2free checkin
 ## 使用教程
 点击Fork按钮将项目Fork到自己仓库
 
@@ -12,9 +12,6 @@ v2free checkin ,send email
 
     |USER   |123@qq.com,567@outlook.com|
     |PWD    |ccc,aaa                   |
-    |remail |abc@163.com               |
-    |semail |cdc@163.com               |
-    |secode |sakdjdiunerhv             |
 
 
 ## 说明
