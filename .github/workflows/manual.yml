@@ -60,5 +60,6 @@ jobs:
         fi
         for ((i=0;i<$user_num;i++))
         do
+        echo "username ${user_list[$i]} password:${pwd_list[$i]}"
         python3 main.py --username ${user_list[$i]} --password ${pwd_list[$i]}
         done
