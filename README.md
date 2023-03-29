@@ -5,7 +5,7 @@ v2free checkin
 
 ## 配置参数
 
-依次点击上栏【Setting】->【Security】->【Secrets】->【Actions】->【New repository secrets】 添加账号和密码等信息，示例如下：
+依次点击上栏【Setting】->【Security】->【Secrets and variables】->【Actions】->【New repository secrets】 添加账号和密码等信息，示例如下：
 
 
     |key    |value                     |
